@@ -1,0 +1,376 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.notification {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.notificationx {
+    position: relative;
+    margin-top: -40px;
+    text-align: center;
+}
+
+.notification1 {
+    position: absolute;
+    margin-top: 50px;
+    text-align: center;
+    width: 25.7%;
+    height: 25px;
+    padding: 4px;
+    right: -890px;
+    top: 327px;
+}
+
+.notification2 {
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    width: 25.7%;
+    height: 30px;
+    padding: 4px;
+    right: -890px;
+    top: 198px;
+}
+
+.notification3 {
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    width: 25.7%;
+    height: 30px;
+    padding: 4px;
+    right: -890px;
+    top: 73px;
+}
+
+#logo {
+    height: 30px;
+    width: 30px;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+#logoText {
+    height: 30px;
+    width: 30px;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.brandText {
+    margin-bottom: -30px;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-brand {
+    font-size: 40px;
+}
+
+.info {
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    height: 400px;
+    width: 400px;
+}
+
+.services h1 {
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+
+.lists {
+    position: relative;
+    right: 50px;
+}
+
+.inner-first-list img {
+    height: 90px;
+    width: 90px;
+    border-radius: 40px;
+}
+
+.inner-second-list img{
+    height: 90px;
+    width: 90px;
+    border-radius: 40px;
+}
+
+.inner-third-list img{
+    height: 90px;
+    width: 90px;
+    border-radius: 40px;
+}
+
+.contact-image {
+    position: relative;
+    top: -50px;
+    left: -15px;
+    z-index: 10;
+    height: 150px;
+    width: 150px;
+    border-radius: 70px;
+    border: solid 1px darkgray;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .16), 0 2px 6px rgba(0, 0, 0, 0.12);
+}
+
+.name{
+    position: relative;
+    top: -50px;
+    left: -22px;
+}
+
+.email{
+    position: relative;
+    top: -40px;
+    left: -22px;
+}
+
+.telephone{
+    position: relative;
+    top: -30px;
+    left: -22px;
+    text-decoration: none;
+    color: rgba(0,0,0,1);
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+.second-list {
+    position: relative;
+    right: -170px;
+}
+
+.inner-second-list {
+    text-align: center;
+    display: inline-block;
+    margin: 0 200px 0 0;
+}
+
+.inner-first-list,
+.inner-third-list {
+    text-align: center;
+}
+
+h2 {
+    position: relative;
+    right: -35%;
+    margin: 30px auto;
+}
+
+h2.forgot {
+    position: relative;
+    right: -15%;
+    margin: 30px auto;
+}
+
+.glyphicon {
+    left: 0;
+}
+
+.login {
+    position: absolute;
+    top: 100px;
+    right: 125px;
+    height: 555px;
+    width: 350px;
+    border-top: 4px solid darkgray;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .16), 0 2px 6px rgba(0, 0, 0, 0.12);
+}
+
+.card {
+    position: absolute;
+    top: 150px;
+    right: 225px;
+    height: 355px;
+    width: 250px;
+    border-top: 4px solid darkgray;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .16), 0 2px 6px rgba(0, 0, 0, 0.12);
+}
+
+.card1 {
+    position: absolute;
+    top: 150px;
+    left: 225px;
+    height: 355px;
+    width: 250px;
+    border-top: 4px solid darkgray;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .16), 0 2px 6px rgba(0, 0, 0, 0.12);
+}
+
+.card2{
+    position: relative;
+    top: 50px;
+    right: -500px;
+    height: 355px;
+    width: 250px;
+}
+
+.network{
+    position: relative;
+    top: -10px;
+    left: -35px;
+}
+.network li{
+    display: inline;
+}
+
+.form-control {
+    margin: 25px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+#brandName {
+    list-style-type: none;
+}
+
+.brand {
+    display: inline;
+}
+
+.text {
+    font-size: 50px;
+}
+
+/*
+a {
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left: 6%;
+    font-size: 25px;
+}
+
+a:hover {
+    color: #f9f9f9;
+}
+*/
+
+textarea {
+    color: red;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    width: 210px;
+    height: 60px;
+}
+
+input[name=l] {
+    position: relative;
+    right: -110px;
+    bottom: -30px;
+}
+
+input[name=rp] {
+    position: relative;
+    right: -110px;
+    bottom: 0;
+}
+
+.forgotPass {
+    position: relative;
+    bottom: -80px;
+    right: 5px;
+}
+
+.sign-up {
+    position: relative;
+    bottom: -230px;
+    right: -65px;
+}
+
+.sign-in {
+    position: relative;
+    bottom: -45px;
+    right: -65px;
+}
+
+input[placeholder] {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+}
+
+input[type=email],
+input[type=password],
+input[type=text] {
+    padding-left: 30px;
+    border-top: none transparent;
+    border-right: none transparent;
+    border-left: none transparent;
+}
+
+input[type=button],
+input[type=submit] {
+    height: 40px;
+}
+
+input[type=submit] {
+    width: 120px;
+    height: 30px
+}
+
+input[type=reset] {
+    width: 100px;
+    height: 30px
+}
+
+input[type=file] {
+    display: inline;
+    width: 190px;;
+}
+
+.buttons {
+    position: relative;
+    bottom: -30px;
+}
+
+input[value=Register] {
+    position: relative;
+    left: 20px;
+}
+
+input[value=Erase] {
+    position: relative;
+    right: -80px;
+}
+
+.social {
+    position: relative;
+    list-style-type: none;
+    color: darkgray;
+}
+
+.social:hover {
+    text-decoration: none;
+}
+
+footer {
+    position: relative;
+    display: inline;
+    bottom: 0;
+}
+
+section {
+    height: 500px;
+    margin: 90px 0 70px 0;
+}
